@@ -63,6 +63,12 @@ We will need to edit the Multicraft useragent so that it knows to use `prepare.s
   6. Uncomment the property `userAgentSuperuserPrepare ` and set it's value to `prepare.sh`
   7. Restart the Multicraft daemon to apply these changes, do this by running `/home/minecraft/multicraft/bin/multicraft stop` and then `/home/minecraft/multicraft/bin/multicraft start`
 
+## Running
+Running the server after installation is quite simple. Create a new server on Multicraft with your desired settings but the following settings must be as described:
+  * The `Jar File` setting must be the server you wish to run (e.g. If this was Ark, select Steam: Ark), do __NOT__ modify the jar file name.
+  * The `World` setting must be either `world` or `update` in order for the scripts to function.
+  * The `Look for JARs in` setting must be `Daemon JAR directory`
+
 [Soh.re Pulp Repo]: https://pulp.soh.re/pulp/isos/multicraft/
 [Ubuntu]: https://www.ubuntu.com/
 [Multicraft]: http://multicraft.org/
