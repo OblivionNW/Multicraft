@@ -34,7 +34,7 @@ __Note:__ Throughout this process we will also assume that Multicraft is in mult
 #### 1. Installing required packages
 Start off by installing `steamcmd` and `git` on your system, do this by typing these commands:
   1. `apt-get update`
-  2. `apt-get install steamcmd git`
+  2. `apt-get install steamcmd git zip unzip`
   
 #### 2. Cloning this repository
 Once you've done that you will need to clone this repository by running:
